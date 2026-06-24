@@ -8,9 +8,9 @@
 ## Sanitization Actions
 
 - No private parser or raw-report tool was copied.
-- Guard policy strings are encoded so forbidden external-project names are not present as literal public text.
+- Guard policy strings use generic runtime-assembled terms so external-project names are not present as public text.
 - Test suite validates both clean pass and controlled rejection.
-- Inputs are local candidate roots, not hardcoded private workspaces.
+- Inputs are local candidate roots, not hardcoded machine-specific directories.
 - No private datasets, broker reports, account files, or market data are included.
 
 ## Decision

@@ -1,4 +1,3 @@
-import base64
 import pathlib
 import subprocess
 import sys
@@ -23,7 +22,8 @@ class PublicationGuardTest(unittest.TestCase):
     def test_guard_rejects_blocked_term(self):
         with tempfile.TemporaryDirectory() as tmp:
             target = pathlib.Path(tmp)
-            (target / 'note.md').write_text(base64.b64decode('WEFV').decode('utf-8'), encoding='utf-8')
+            blocked = ''.join(('PRIVATE', '_PROJECT', '_CODE', '_NAME', '_1'))
+            (target / 'note.md').write_text(blocked, encoding='utf-8')
             result = self.run_guard(target)
         self.assertNotEqual(result.returncode, 0, result.stdout)
 

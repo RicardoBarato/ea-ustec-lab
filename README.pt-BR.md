@@ -4,7 +4,9 @@ Candidato publico de pesquisa educacional sobre trading sistematico em USTEC/Nas
 
 O projeto encontrou desempenho positivo em periodos especificos, especialmente em 2025, mas nenhum candidato demonstrou robustez multi-ano suficiente para aprovacao operacional.
 
-Nao e recomendacao financeira, nao e sinal e nao e robo aprovado para conta real.
+Todos os numeros abaixo sao backtests historicos de Strategy Tester em USTEC/Nasdaq CFD, com contexto principal M5. Nao sao resultados reais, demo, paper, sinal ou conta ao vivo. O deposito inicial nao esta incluido neste resumo publico sanitizado, entao lucro liquido e drawdown nao devem ser comparados entre corretoras ou tamanhos de conta sem recriar exatamente a configuracao do teste.
+
+Nao e recomendacao financeira, nao e sinal e nao e robo aprovado para conta real ou execucao automatizada. Resultados podem variar por corretora, spread, comissao, slippage, sessao, especificacao de contrato e historico usado.
 
 ## Resumo de resultados
 
@@ -13,4 +15,4 @@ Nao e recomendacao financeira, nao e sinal e nao e robo aprovado para conta real
 | v0_4_safety | 2025: +US$1,120.04; PF 1.13; DD 10.23%; 235 trades | 5y e 10y negativos | positivo em 2025, sem robustez longa |
 | session_entry_quality | 2025: +US$1,652.00; PF 1.22; DD 8.00%; 203 trades | 5y e 10y negativos | melhor janela recente, sem robustez longa |
 
-Resultados bons e ruins devem ser lidos juntos. Estes numeros sao backtests, nao resultados ao vivo.
+Resultados bons e ruins devem ser lidos juntos. Estes numeros sao backtests, nao resultados ao vivo, e nenhum metodo tem aprovacao operacional.

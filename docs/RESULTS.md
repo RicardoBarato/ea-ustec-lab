@@ -1,5 +1,7 @@
 # Results
 
+These figures are historical Strategy Tester backtests, not live, demo, paper, signal, or real-account performance. The public summary covers USTEC/Nasdaq CFD research with M5 execution context unless a row states otherwise. Initial deposit is not included in the sanitized public summary; treat net profit and drawdown as research evidence only, not as transferable account expectations. Results can change with broker, spread, commission, slippage, session, contract specification, and historical data source.
+
 | Candidate | Window | Net | PF | DD | Trades | Read |
 | --- | --- | ---: | ---: | ---: | ---: | --- |
 | v0_4_safety | 2025 | +US$1,120.04 | 1.13 | 10.23% | 235 | positive but thin |
@@ -16,4 +18,4 @@
 | Risk 1% / 5R / 8R | Q2 was promising in the session candidate | Q3 failed; 1y/5y/10y were not executed by gate | rejected_at_smoke |
 | Risk 2% / 5R / 8R | Q2 showed nominal gain | Q3 equity DD reached 44.82% in v0_4/safety and 38.43% in session; safety gate interrupted continuation | rejected_catastrophic_drawdown |
 
-These are backtest metrics, not live results.
+These are backtest metrics, not live results. No method here has operational approval.

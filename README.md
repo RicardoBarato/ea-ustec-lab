@@ -4,12 +4,16 @@ Public research candidate for an educational USTEC/Nasdaq systematic trading arc
 
 The project found positive performance in specific periods, especially 2025, but no candidate demonstrated enough multi-year robustness for operational approval.
 
+All metrics below are historical Strategy Tester backtests on USTEC/Nasdaq CFD research material, primarily on M5 execution context. They are not live, demo, paper, signal, or real-account results. Initial deposit is not included in this sanitized public summary, so net profit and drawdown should not be compared across brokers or account sizes without recreating the exact test setup.
+
 ## Status
 
 - Research archive candidate.
 - No live, demo, paper, signal, or real account approval.
 - No financial advice.
 - No promise of profit.
+- No operational authorization for live or automated execution.
+- Results can vary by broker, spread, commission, slippage, session, contract specification, and historical data source.
 
 ## Key conclusion
 

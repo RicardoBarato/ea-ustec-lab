@@ -24,7 +24,7 @@
 | DLL import | not found |
 | Credential string | not found |
 | Broker/server/account hardcode | not found |
-| Absolute local paths | not found |
+| Absolute machine-specific paths | not found |
 | Hidden code | not found by textual review |
 | Compiled artifact | not included |
 
