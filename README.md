@@ -129,10 +129,11 @@ flowchart LR
 git clone https://github.com/RicardoBarato/ea-ustec-lab.git
 cd ea-ustec-lab
 python -m venv .venv
-. .venv/Scripts/activate
+python -m pip install --upgrade pip
 python -m compileall scripts tests
 python -m unittest discover -s tests
 python scripts/publication_guard.py .
+python -c "import pathlib; [print(p) for p in pathlib.Path('examples/synthetic_data').rglob('*') if p.is_file()]"
 ```
 
 Useful entry points:
@@ -142,7 +143,7 @@ Useful entry points:
 - Synthetic examples: [examples/synthetic_data](examples/synthetic_data)
 - Public result summary: [docs/RESULTS.md](docs/RESULTS.md)
 
-Do not treat this quick start as an instruction to trade live. It is for repository review, tests and research continuation.
+No third-party package install is required for the current public guard tests. Do not treat this quick start as an instruction to trade live. It is for repository review, tests, synthetic-example inspection and research continuation.
 
 ## Reproducing the research
 
