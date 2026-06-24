@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+*.ex5
+*.set
+*.tst
+*.log
+*.html
+*.csv
+*.xlsx
+*.zip
