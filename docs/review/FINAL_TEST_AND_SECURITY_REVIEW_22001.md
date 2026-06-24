@@ -14,7 +14,7 @@ EA USTEC
 | publication guard | pass |
 | forbidden extension scan | pass |
 | cross-project contamination scan | pass |
-| local path scan | pass |
+| machine-specific path scan | pass |
 | sensitive-string scan | pass with allowed policy wording in SECURITY.md only |
 | Markdown UTF-8/mojibake check | pass |
 
